@@ -1,0 +1,91 @@
+.marketplace {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+}
+
+.marketplace_text {
+    margin-bottom: 670px;
+    margin-top: 100px;
+    color: white;
+    font-family: "NEXT ART_BOLD";
+    text-shadow: 1px 1px 3px #00000040;
+    width: 900px;
+    font-size: 55px;
+    margin-bottom: 730px;
+    font-weight: bold;
+}
+
+.marketplace_man {
+    width: 640px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.marketplace_pad {
+    width: 570px;
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+}
+
+.marketplace_boll {
+    width: 320px;
+    position: absolute;
+    bottom: 58%;
+    right: 0;
+}
+
+.marketplace_man_img {
+    width: 576px;
+}
+
+.marketplace_pad_img {
+    width: 670px;
+}
+
+.marketplace_button_link {
+    width: 300px;
+    margin-left: 60%;
+    height: 160px;
+    text-decoration: none;
+    background:#B2A5FA;
+    width: 317px;
+    border-radius: 25px;
+    transition: .3s;
+    font-size: 45px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: "NEXT ART_BOLD";
+    padding: 10px 50px 10px 50px;
+}
+
+.marketplace_button_link:hover {
+    transition: .3s;
+    background-color: #8b77fa;
+}
+
+
+@media screen and (max-width: 450px) {
+    .marketplace {
+        width: 1000px;
+    }
+
+    .marketplace_man {
+        width: 550px;
+    }
+
+    .marketplace_pad {
+        width: 550px;
+        bottom: 20%;
+        right: 0;
+    }
+
+    .marketplace_boll {
+        width: 300px;
+        z-index: -1;
+    }
+}

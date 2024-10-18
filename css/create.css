@@ -1,0 +1,77 @@
+.create {
+    max-width: 1150px;
+    width: 88%;
+    margin: 250px auto 100px;
+    position: relative;
+}
+
+.create_button {
+    position: absolute;
+    bottom: 9%;
+    right: 40%;
+    z-index: 1;
+    background: #B2A5FA;
+    margin-left: 20%;
+    width: 290px;
+    border-radius: 25px;
+    transition: .3s;
+    font-size: 45px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: auto;
+    font-family: "NEXT ART_BOLD";
+    padding: 5px 0 5px 0;
+}
+
+.create_button:hover {
+   transition: .3s;
+   background-color: #8b77fa;
+}
+
+.create_img {
+    width: 100%;
+    z-index: -1;
+}
+
+.create_link {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .create {
+        width: 1000px;
+        margin: auto;
+    }
+   /* .create_grid {
+        grid-template-areas:
+        "A A A A"
+        "B B B B"
+        "C C C C";
+        margin: 50px auto 50px;
+        gap: 20px;
+    }
+
+    .box-2 {
+        width: 200px;
+        margin: auto;
+    }
+
+    .box-3 {
+        width: 180px;
+        font-size: 15px;
+    }
+
+    .create {
+        margin: 50px auto 50px;
+    }
+
+    .box-1 {
+        font-size: 20px;
+    }*/
+}

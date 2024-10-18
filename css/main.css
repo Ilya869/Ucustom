@@ -1,0 +1,58 @@
+@import url(hit.css);
+@import url(catalog_2.css);
+@import url(custom_1.css);
+@import url(create.css);
+@import url(custom_2.css);
+@import url(marketplace.css);
+@import url(faq.css);
+@import url(head.css);
+@import url(lk.css);
+@import url(footer.css);
+
+
+@font-face {
+    font-family: "Montserrat-ExtraBold"; 
+    src: url(../Montserrat/Montserrat-ExtraBold.ttf) format("truetype");
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@font-face {
+    font-family: "NEXT ART_BOLD"; 
+    src: url(../Montserrat/NEXT\ ART_BOLD.OTF) format("truetype");
+    font-style: bold; 
+
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Montserrat-Regular"; 
+    src: url(../Montserrat/Montserrat-Regular.ttf) format("truetype");
+    font-style: bold; 
+    font-weight: bold; 
+}
+
+body {
+   /* background-image: repeating-linear-gradient(#E6E4F2, #C8C0F7, #E6E4F2, #C8C0F7, #E6E4F2);*/
+    margin: auto;
+    max-width: 100%;
+    min-width: 1200px;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-image: repeating-linear-gradient(#E6E4F2, #C8C0F7, #E6E4F2, #C8C0F7, #E6E4F2);
+}
+
+
+@media screen and (max-width: 450px) {
+    body {
+        width: 1000px;
+
+    }
+
+    .back {
+        width: 1000px;
+    }
+}

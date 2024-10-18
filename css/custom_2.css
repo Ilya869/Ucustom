@@ -1,0 +1,54 @@
+.custom_2 {
+    width: 1200px;
+    margin: auto;
+}
+
+.custom_grid {
+    width: 95%;
+    margin: 180px auto 100px;
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.custom_img {
+    max-width: 100%;
+    border-radius: 30px;
+    box-shadow: 3px 3px 5px 2px rgb(114, 114, 114);
+}
+
+.custom_img_button {
+    max-width: 100%;
+    border-radius: 30px;
+}
+
+.custom_link {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+    height: 410px;
+    transition: 1s;
+}
+
+.custom_link_button {
+    width: 80%;
+    margin: auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+.custom_link:hover {
+    box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.2),
+              -3px -3px 5px 2px rgba(0, 0, 0, 0.2);
+   transition: .3s;
+   transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 450px) {
+    .custom_2 {
+        width: 1000px;
+        margin: auto;
+    }
+}
